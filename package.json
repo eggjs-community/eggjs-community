@@ -1,0 +1,15 @@
+{
+  "name": "eggjs-community",
+  "version": "1.0.0",
+  "description": "egg community",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.8.4"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build",
+    "publish": "./deploy.sh"
+  } 
+}
